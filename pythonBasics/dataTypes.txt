@@ -1,0 +1,29 @@
+#####################when to use what###################
+
+Numeric Data Types (int, float, complex):
+    int: Use when representing whole numbers without fractional parts.
+    float: Use when representing numbers with fractional parts.
+    complex: Use when dealing with complex numbers with real and imaginary parts.
+
+String Data Type (str):
+    Use when working with text data, such as names, sentences, or any sequence of characters.
+    
+Sequence Types (list, tuple, range):
+    list: Use when you need an ordered collection of items that can be modified (added, removed, or changed).
+    tuple: Use when you need an ordered collection of items that should remain constant (immutable).
+    range: Use when you need to represent a sequence of numbers, especially for iterating over a range of values in loops.
+
+Binary Types (bytes, bytearray, memoryview):
+    bytes: Use when working with sequences of bytes, such as binary data or encoded text.
+    bytearray: Use when you need a mutable sequence of bytes, allowing for modifications.
+    memoryview: Use when you need a view of the memory of another object, particularly useful for efficient manipulation of large data structures.
+
+Mapping Data Type (dict):
+    Use when you need to store key-value pairs, providing a way to retrieve values based on associated keys.
+
+Boolean Type (bool):
+    Use when representing logical values, typically True or False, for conditions or comparisons.
+
+Set Data Types (set, frozenset):
+    set: Use when you need an unordered collection of unique items, allowing for fast membership tests and mathematical set operations.
+    frozenset: Use when you need an immutable version of a set, typically used as keys in dictionaries or elements of other sets when mutability is undesired.

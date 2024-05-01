@@ -1,5 +1,6 @@
 # what are the data types available in python
 
+# variable are assigned using "=" operator
 
 # Numeric Data Types
 status_code = 504              # Integer
